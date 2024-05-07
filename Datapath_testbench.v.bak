@@ -1,0 +1,35 @@
+`timescale 1ns/100ps
+module Datapath_testbench();
+reg clk, RegDst, RegWrite, ALUSrc, MemWrite, MemRead, MemToReg;
+reg [2:0] ALUControl;
+reg [31:0] Instruction;
+reg Sign, Zero;
+initial begin
+	#200 $stop;
+end
+initial begin
+	RegDst = 1'b0;
+	RegWrite = 1'b0;
+	ALUSrc = 0;
+	ALUControl = 0;
+	MemWrite = 1'b0;
+	MemRead = 1'b0;
+	MemToReg = 1'b0;
+	Instruction = 32'b000000_00000_00000_00000_00000000000;
+	#20
+	RegDst = 1'b0;
+	RegWrite = 1'b0;
+	ALUSrc = 0;
+	ALUControl = 0;
+	MemWrite = 1'b0;
+	MemRead = 1'b0;
+	MemToReg = 1'b0;
+	Instruction = 32'b000000_00000_00000_00000_00000000000;
+end
+Datapath(CLK, RegWrite, ALUSrc, ALUControl, MemWrite, MemRead, MemToReg, Instruction, Sign, Zero);
+initial
+begin
+	clk = 0;
+	forever #10 clk=~clk;
+end
+endmodule

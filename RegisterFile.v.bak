@@ -1,0 +1,14 @@
+module RegisterFile(clk, RR1, RR2, WR, WD, RegWrite, RD1, RD2);
+	input [4:0] RR1, RR2, WR;
+	input [31:0] WD;
+	input RegWrite, clk;
+	output [31:0] RD1, RD2;
+	reg [31:0] reg1 [31:0];
+	
+	always @(posedge clk)
+		if(RegWrite)
+			reg1[WR] <= WD;
+
+	assign RD1 = reg1[RR1];
+	assign RD2 = reg1[RR2];
+endmodule 

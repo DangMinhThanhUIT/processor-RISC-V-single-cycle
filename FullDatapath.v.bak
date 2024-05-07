@@ -1,0 +1,16 @@
+module FullDatapath(CLK, RegWrite, ALUSrc, ALUControl
+		, MemWrite, MemRead, MemToReg,  Sign, Zero, ResetPC, Branch);
+input CLK, RegWrite, ALUSrc, MemWrite, MemRead, MemToReg, Branch;
+input [3:0] ALUControl;
+output Sign, Zero;
+
+wire [4:0] WR;
+wire [31:0] RD1, RD2, SrcB, ALUResult, RD, SE, WD, BCRes, PCRes, Instruction;
+wire ALU_carry;
+PC PC(.clk(CLK), .Reset(ResetPC), .PC_in(BCRes), .PC_out(PCRes));
+InstructionMemory IM(.Address(PCRes), .Instruction(Instruction));
+Datapath DTPath(.CLK(clk), .RegWrite(RegWrite), .ALUSrc(ALUSrc), .ALUControl(ALUControl)
+		, .MemWrite(MEmWrite), .MemRead(MemRead), .MemToReg(MEmToReg)
+		, .Instruction(INstruction), .Sign(Sign), .Zero(Zero), .Imm(Imm));
+BranchComp BC(.PC_in(BCRes), .PC_out(PCRes), .Imm(Imm), .Branch(Branch), .Zero(Zero));
+endmodule

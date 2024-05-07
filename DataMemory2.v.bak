@@ -1,0 +1,15 @@
+module DataMemory2(CLK, Address, WriteData, WriteEn, ReadData);
+input CLK, WriteEn;
+input [31:0] Address;
+input [31:0] WriteData;
+output reg [31:0] ReadData;
+
+reg [31:0] RAM [63:0]; // 64x32 bit memory
+assign ReadData = RAM[Address[31:2]];
+
+always @ (posedge CLK)
+begin
+	if(WriteEn)
+		reg1[Address[31:2]] <= WriteData;
+end
+endmodule

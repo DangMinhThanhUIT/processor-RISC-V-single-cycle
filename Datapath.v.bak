@@ -1,0 +1,4 @@
+module Datapath ()
+
+RegisterFile(ReadRegister1, ReadRegister2, WriteRegister, WriteData, RegWrite, clk, ReadData1, ReadData2);
+

@@ -1,0 +1,278 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\mon_dai_hoc\nam3\TKHTS_HDL\RISCV_SingleCycle\simulation\modelsim
+vALU2
+IJ>2[J476gjf1_SW1;U?Q40
+VKhY8I8aQm_>6QG82KkXPE3
+Z1 dD:\mon_dai_hoc\nam3\TKHTS_HDL\RISCV_SingleCycle\simulation\modelsim
+w1703341040
+8D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ALU2.v
+FD:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ALU2.v
+L0 6
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle -O0
+n@a@l@u2
+!i10b 1
+!s100 9_ekE8CF7BDNc0n@AbPmz1
+!s85 0
+!s108 1703486108.213000
+!s107 D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ALU2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle|D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ALU2.v|
+!s101 -O0
+vALUControl2
+Ilh:R@DzR[zWXmlO57>HZL0
+VjMlB7ImAVjeKZd70WChA;0
+R1
+w1703338548
+8D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ALUControl2.v
+FD:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ALUControl2.v
+L0 7
+R2
+r1
+31
+R3
+R4
+n@a@l@u@control2
+!i10b 1
+!s100 BLhRoffAmgBf=Hl_=7BUl0
+!s85 0
+!s108 1703486108.275000
+!s107 D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ALUControl2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle|D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ALUControl2.v|
+!s101 -O0
+vBranchComp
+I2[3V]51X`jfcT<86CfkW^2
+V=Qo[65FeOe[fnd`<JLcJR2
+R1
+w1703329156
+8D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/BranchComp.v
+FD:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/BranchComp.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@branch@comp
+!i10b 1
+!s100 WBXN9XbK;Wh7J^AO9Ti@W1
+!s85 0
+!s108 1703486108.480000
+!s107 D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/BranchComp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle|D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/BranchComp.v|
+!s101 -O0
+vControlUnit
+IF_k]TJSAINVHWE;d=CVa:3
+V5iimgJQlQE:EYK[fBDVU_2
+R1
+w1703342012
+8D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ControlUnit.v
+FD:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ControlUnit.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@control@unit
+!i10b 1
+!s100 dVM[b:9A=JB[NXY;dH[SD2
+!s85 0
+!s108 1703486108.088000
+!s107 D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ControlUnit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle|D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ControlUnit.v|
+!s101 -O0
+vDataMemory2
+I`SVN9kQ]Jl^^D5eOAif1_0
+VX[_`1NFh<ZiPT__``jl2@3
+R1
+w1702600804
+8D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/DataMemory2.v
+FD:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/DataMemory2.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@data@memory2
+!i10b 1
+!s100 :E90PL98UYeMi`A9dj53^1
+!s85 0
+!s108 1703486108.338000
+!s107 D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/DataMemory2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle|D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/DataMemory2.v|
+!s101 -O0
+vDatapath
+I<1S5OzJ2YmYJUNdQ47fcH1
+VJ;1e]Gjk;mmb<BM9l5EbL2
+R1
+w1703319678
+8D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/Datapath.v
+FD:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/Datapath.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@datapath
+!i10b 1
+!s100 MFlTUT5XK>d78_8XPS0_30
+!s85 0
+!s108 1703486108.150000
+!s107 D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/Datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle|D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/Datapath.v|
+!s101 -O0
+vFullDatapath
+I6^_]^j[aN6?I2BO9a0i?00
+V0_83JRlAo@@Wao4_no5__0
+R1
+w1703328960
+8D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/FullDatapath.v
+FD:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/FullDatapath.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@full@datapath
+!i10b 1
+!s100 CHmAfDM:h]AG_Fl7FXiEb2
+!s85 0
+!s108 1703486108.542000
+!s107 D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/FullDatapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle|D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/FullDatapath.v|
+!s101 -O0
+vImmediateGenerator
+I2DWUC?mKT@1:<4k0eh4[f0
+VamFacPm?Y>;z3Y[CEaFLa2
+R1
+w1702039824
+8D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ImmediateGenerator.v
+FD:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ImmediateGenerator.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@immediate@generator
+!i10b 1
+!s100 nDmMWT0B5zgE;R8h2`m>F1
+!s85 0
+!s108 1703486107.947000
+!s107 D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ImmediateGenerator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle|D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/ImmediateGenerator.v|
+!s101 -O0
+vMux21_32bit
+IDQDmhJDIZfeaIG<fIE9mJ2
+VJQMO^HkZ<@CI>eLO>5dzN0
+R1
+w1702020776
+8D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/Mux21_32bit.v
+FD:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/Mux21_32bit.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@mux21_32bit
+!i10b 1
+!s100 k`<Ia6bkAHKoHaZ4<F0]Z1
+!s85 0
+!s108 1703486108.009000
+!s107 D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/Mux21_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle|D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/Mux21_32bit.v|
+!s101 -O0
+vPC
+IlPQCOJ1bG1@c5cG4^1z<_0
+Vkk<jLC0DoakEa`48Rm^C^3
+R1
+w1703319676
+8D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/PC.v
+FD:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/PC.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@p@c
+!i10b 1
+!s100 6o8b5DOdm99gX:R=;<<KP3
+!s85 0
+!s108 1703486108.417000
+!s107 D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/PC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle|D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/PC.v|
+!s101 -O0
+vRegister_File
+Ij:S@2ScgE4W1O[hKi_<c42
+V>I1zXi]oEkI7m[a]loFd`1
+R1
+w1703279654
+8D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/RegisterFile.v
+FD:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/RegisterFile.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@register_@file
+!i10b 1
+!s100 6g[i<hmXf88c?N>Jz>V3G1
+!s85 0
+!s108 1703486107.869000
+!s107 D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/RegisterFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle|D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/RegisterFile.v|
+!s101 -O0
+vRISCV_SingleCycle
+IRh[MnA`5QAX]LoGIk4[c43
+Vl12izD?Q>fikiI4`AfN:^2
+R1
+w1703340288
+8D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/RISCV_SingleCycle.v
+FD:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/RISCV_SingleCycle.v
+L0 1
+R2
+r1
+31
+R3
+n@r@i@s@c@v_@single@cycle
+R4
+!i10b 1
+!s100 CWgQDnK5i[4[lEbkZ5M>Z3
+!s85 0
+!s108 1703486107.791000
+!s107 D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/RISCV_SingleCycle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle|D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/RISCV_SingleCycle.v|
+!s101 -O0
+vRISCV_SingleCycle_testbench
+!i10b 1
+!s100 o^6kT`ORk`C7EA]FoO_<L2
+IVV[^fmW=RYo6BRlo?:PfR2
+V^_MWm4d8>A0YflZ^NilYo0
+R1
+w1703438397
+8D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/RISCV_SingleCycle_testbench.v
+FD:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/RISCV_SingleCycle_testbench.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1703486108.605000
+!s107 D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/RISCV_SingleCycle_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle|D:/mon_dai_hoc/nam3/TKHTS_HDL/RISCV_SingleCycle/RISCV_SingleCycle_testbench.v|
+!s101 -O0
+R3
+R4
+n@r@i@s@c@v_@single@cycle_testbench
